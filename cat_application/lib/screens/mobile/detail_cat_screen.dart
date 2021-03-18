@@ -58,6 +58,7 @@ class _DetailCatMobileScreenState extends State<DetailCatMobileScreen> {
                       'Intelligence',
                       style: TextStyle(fontSize: _height * 0.025),
                     ),
+                  
                     SizedBox(width: _height*0.01,),
                       _buildDataIntelligence(context),
                   ],
@@ -81,7 +82,7 @@ class _DetailCatMobileScreenState extends State<DetailCatMobileScreen> {
               ),
             
               SizedBox(
-                height: _height * 0.15,
+                height: _height * 0.1,
               ),
               _buildButtonSaveFav(context)
             ],
@@ -267,39 +268,5 @@ class _DetailCatMobileScreenState extends State<DetailCatMobileScreen> {
 
   
 
-  // Widget powerBarBuild(int score, Color color) {
-  //   final double _height = MediaQuery.of(context).size.height;
-  //   final double _width = MediaQuery.of(context).size.width;
-  //   int realScore = score;
-  //   int blankScore = 5 - score;
-  //   return ListView.builder(
-  //     scrollDirection: Axis.horizontal,
-  //     itemCount: realScore,
-  //     itemBuilder: (context, index) {
-  //       if (index == 0) {
-  //         return Container(
-  //           width: _width*0.07,
-  //           height: _height*0.1,
-  //           decoration: BoxDecoration(
-  //               color: color,
-  //               borderRadius: BorderRadius.only(
-  //                   topLeft: Radius.circular(10),
-  //                   bottomLeft: Radius.circular(10))),
-  //         );
-  //       }
-  //       else{
 
-  //         Container(
-  //           margin: EdgeInsets.only(left: _width*0.01),
-  //           width: _width*0.07,
-  //           height: _height*0.1,
-  //           decoration: BoxDecoration(
-  //               color: color,
-  //               ),
-  //         );
-
-  //       }
-  //     },
-  //   );
-  // }
 }

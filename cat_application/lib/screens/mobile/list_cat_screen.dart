@@ -91,7 +91,7 @@ class _ListCatMobileScreenState extends State<ListCatMobileScreen> {
                           builder: (context) => DetailCatMobileScreen(dataDetail: data[index],)));
                 },
                 child: Card(
-                  elevation: 2,
+                  elevation: 1,
                   color: Colors.white,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12)),
