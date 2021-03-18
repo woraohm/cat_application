@@ -1,6 +1,5 @@
 import 'package:cat_application/screens/desktop/list_cat_screen.dart';
 import 'package:cat_application/screens/mobile/list_cat_screen.dart';
-import 'package:cat_application/screens/tablet/list_cat_screen.dart';
 import 'package:flutter/material.dart';
 
 class ListCatScreen extends StatefulWidget {
